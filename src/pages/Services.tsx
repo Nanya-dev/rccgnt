@@ -1,4 +1,3 @@
-
 import React from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -44,7 +43,7 @@ const Services = () => {
                 <h3 className="font-playfair text-2xl font-bold mb-2 text-church-dark">
                   Sunday Worship Service
                 </h3>
-                <p className="text-church-primary font-medium mb-4">10:00 AM - 12:30 PM</p>
+                <p className="text-church-primary font-medium mb-4">8:00 AM - 11:30 PM</p>
                 <p className="text-gray-700 mb-4">
                   Our main weekly gathering for worship, praise, prayer, and teaching from God's Word.
                   Join us for a powerful time in God's presence.
@@ -63,7 +62,7 @@ const Services = () => {
                 <h3 className="font-playfair text-2xl font-bold mb-2 text-church-dark">
                   Bible Study
                 </h3>
-                <p className="text-church-primary font-medium mb-4">Wednesday 6:30 PM - 8:00 PM</p>
+                  <p className="text-church-primary font-medium mb-4">Tuesday 5:30 PM - 6:30 PM</p>
                 <p className="text-gray-700 mb-4">
                   An interactive study of the Bible where we dig deeper into God's Word to gain
                   understanding and practical application for everyday life.
@@ -80,14 +79,14 @@ const Services = () => {
               </div>
               <div>
                 <h3 className="font-playfair text-2xl font-bold mb-2 text-church-dark">
-                  Prayer Meeting
+                 Faith Clinic
                 </h3>
-                <p className="text-church-primary font-medium mb-4">Friday 6:30 PM - 8:00 PM</p>
+                <p className="text-church-primary font-medium mb-4">Thursday 5:30 PM - 6:30 PM</p>
                 <p className="text-gray-700 mb-4">
                   Join us for a time of corporate prayer as we intercede for our church,
                   community, nation, and world. Experience the power of united prayer.
                 </p>
-                <p className="text-gray-600">Location: Prayer Room</p>
+                <p className="text-gray-600">Location: Fellowship Hall</p>
               </div>
             </div>
             
@@ -99,9 +98,9 @@ const Services = () => {
               </div>
               <div>
                 <h3 className="font-playfair text-2xl font-bold mb-2 text-church-dark">
-                  Youth Service
+                  Youth Sunday
                 </h3>
-                <p className="text-church-primary font-medium mb-4">Sunday 4:00 PM - 6:00 PM</p>
+                <p className="text-church-primary font-medium mb-4"> Every third Sunday of the month 8:00 PM - 12:30 PM</p>
                 <p className="text-gray-700 mb-4">
                   A dynamic service designed specifically for our youth to worship,
                   learn, and grow together in a relevant and engaging environment.
