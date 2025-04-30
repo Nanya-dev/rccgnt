@@ -9,24 +9,24 @@ const About = () => {
   const leaders = [
     {
       id: 1,
-      name: "Pastor John Smith",
+      name: "Pastor Aniekan Udo-Etuk",
       role: "Senior Pastor",
-      image: "https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
-      bio: "Pastor John has been leading our congregation for over 15 years with wisdom and compassion."
+      image: "/h1.jpeg",
+      bio: "Pastor Aniekan has been leading our congregation for over 3 years with wisdom and compassion."
     },
     {
       id: 2,
-      name: "Mary Johnson",
-      role: "Associate Pastor",
-      image: "https://images.unsplash.com/photo-1494891848038-7bd202a2afeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
-      bio: "Pastor Mary oversees our youth ministry and community outreach programs."
+      name: "Good women",
+      role: "",
+      image: "/h2.jpeg",
+      bio: "Then the prophet Miriam,Aaron's sister took a tambourine in her hand. All the women followed her playing tambourines and dancing(Exodus 15:20)"
     },
     {
       id: 3,
-      name: "Aiyenitaju Daniel Iyanuoluwa",
-      role: "Head of Youth Choir",
-      image: "https://images.unsplash.com/photo-1466442929976-97f336a657be?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
-      bio: "Daniel leads our worship team with a passion for creating an atmosphere of praise."
+      name: "Youth Community",
+      role: "",
+      image: "/h3.jpeg",
+      bio: "Jeremiah 1:4-9 The word of the LORD came to me, saying, ‘Before I formed you in the womb I knew you, before you were born I set you apart; I appointed you as a prophet to the nations.’ ‘Ah, Sovereign LORD,’ I said, ‘I do not know how to speak; I am only a child.’ But the LORD said to me, ‘Do not say, 'I am only a child.' You must go to everyone I send you to and say whatever I command you. Do not be afraid of them, for I am with you and will rescue you,’ declares the LORD. Then the LORD reached out his hand and touched my mouth and said to me, ‘Now, I have put my words in your mouth."
     }
   ];
 
@@ -144,11 +144,11 @@ const About = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-playfair font-bold mb-6 text-church-dark text-center">
-            Our Leadership
+            Our Service Units
           </h2>
           <div className="w-20 h-1 bg-church-secondary mx-auto mb-8"></div>
           <p className="text-lg text-center text-gray-700 max-w-3xl mx-auto mb-12">
-            Meet the dedicated leaders who serve our church community with passion and purpose.
+            Meet the dedicated Units who serve our church community with passion and purpose.
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

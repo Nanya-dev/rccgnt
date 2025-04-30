@@ -56,21 +56,21 @@ const Footer = () => {
                 <Clock className="mr-2 h-5 w-5 text-church-secondary" />
                 <div>
                   <p className="font-medium">Sunday Service</p>
-                  <p className="text-gray-300">8:00 AM - 12:30 PM</p>
+                  <p className="text-gray-300">8:00 AM - 11:30 PM</p>
                 </div>
               </li>
               <li className="flex items-start">
                 <Clock className="mr-2 h-5 w-5 text-church-secondary" />
                 <div>
                   <p className="font-medium">Bible Study</p>
-                  <p className="text-gray-300">Tuesday 6:30 PM - 8:00 PM</p>
+                  <p className="text-gray-300">Tuesday 5:30 PM - 6:30 PM</p>
                 </div>
               </li>
               <li className="flex items-start">
                 <Clock className="mr-2 h-5 w-5 text-church-secondary" />
                 <div>
-                  <p className="font-medium">Prayer Meeting</p>
-                  <p className="text-gray-300">Thursday 6:30 PM - 8:00 PM</p>
+                  <p className="font-medium">Faith Clinic</p>
+                  <p className="text-gray-300">Thursday 5:30 PM - 6:30 PM</p>
                 </div>
               </li>
             </ul>

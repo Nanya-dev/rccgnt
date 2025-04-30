@@ -141,8 +141,8 @@ const Contact = () => {
                     <h3 className="font-playfair text-xl font-bold mb-2 text-church-dark">
                       Phone
                     </h3>
-                    <p className="text-gray-700">(123) 456-7890</p>
-                    <p className="text-gray-700">(123) 456-7891 (Office)</p>
+                    <p className="text-gray-700">+234 805 501 9445 </p>
+                    <p className="text-gray-700">+234 805 501 9445 (Office)</p>
                   </div>
                 </div>
                 
@@ -156,8 +156,8 @@ const Contact = () => {
                     <h3 className="font-playfair text-xl font-bold mb-2 text-church-dark">
                       Email
                     </h3>
-                    <p className="text-gray-700">info@rccganewthing.org</p>
-                    <p className="text-gray-700">pastor@rccganewthing.org</p>
+                    <p className="text-gray-700">newthingmedia129@gmail.com</p>
+                
                   </div>
                 </div>
                 

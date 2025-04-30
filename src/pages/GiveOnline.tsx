@@ -26,9 +26,9 @@ const givingOptions: GivingOption[] = [
     description: "Support the development and expansion of our church facilities",
     icon: <Church className="w-8 h-8 text-church-primary" />,
     accountDetails: {
-      bankName: "First Bank",
-      accountNumber: "1234567890",
-      accountName: "RCCG A New Thing - Building Project"
+      bankName: "Zenith Bank",
+      accountNumber: "1310943285",
+      accountName: "A New Thing Parish"
     }
   },
   {
@@ -37,9 +37,9 @@ const givingOptions: GivingOption[] = [
     description: "Give your tithes and offerings to support the ministry",
     icon: <Heart className="w-8 h-8 text-church-primary" />,
     accountDetails: {
-      bankName: "First Bank",
-      accountNumber: "0987654321",
-      accountName: "RCCG A New Thing - Tithes & Offering"
+      bankName: "Zenith Bank",
+      accountNumber: "1017564019",
+      accountName: "A New Thing Parish"
     }
   },
   {
@@ -48,9 +48,9 @@ const givingOptions: GivingOption[] = [
     description: "Support community outreach and assistance programs",
     icon: <HandHeart className="w-8 h-8 text-church-primary" />,
     accountDetails: {
-      bankName: "First Bank",
-      accountNumber: "5678901234",
-      accountName: "RCCG A New Thing - Welfare"
+      bankName: "Zenith Bank",
+      accountNumber: "1310943285",
+      accountName: "A New Thing Parish"
     }
   }
 ];

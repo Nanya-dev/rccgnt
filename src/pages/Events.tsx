@@ -12,56 +12,30 @@ const Events = () => {
       id: 1,
       title: "Sunday Worship Service",
       date: "Every Sunday",
-      time: "10:00 AM - 12:30 PM",
+      time: "8:00 AM - 12:30 PM",
       location: "Main Sanctuary",
       description: "Join us for our weekly Sunday worship service featuring praise, worship, and the Word of God.",
       icon: <Calendar className="h-8 w-8 text-white" />
     },
     {
       id: 2,
-      title: "Youth Conference",
-      date: "May 15-17, 2025",
-      time: "9:00 AM - 5:00 PM",
+      title: "Youth Picnic",
+      date: "Third Saturday of the month",
+      time: "3:00 PM",
       location: "Fellowship Hall",
-      description: "A three-day conference designed to empower and equip our youth to live boldly for Christ.",
+      description: "A monthly get-to-gether designed to empower and equip our youth to live boldly for Christ.",
       icon: <Users className="h-8 w-8 text-white" />
     },
     {
       id: 3,
-      title: "Community Outreach",
-      date: "May 22, 2025",
+      title: "Jesus feeds the nation",
+      date: "Every first Sunday of the month",
       time: "10:00 AM - 2:00 PM",
       location: "City Park",
       description: "Join us as we serve our community through distributing food, clothing, and sharing the love of Christ.",
       icon: <Heart className="h-8 w-8 text-white" />
-    },
-    {
-      id: 4,
-      title: "Prayer & Fasting Week",
-      date: "June 5-12, 2025",
-      time: "6:30 PM - 8:30 PM (evening gatherings)",
-      location: "Prayer Room",
-      description: "A dedicated week of seeking God through prayer and fasting for spiritual breakthrough.",
-      icon: <Clock className="h-8 w-8 text-white" />
-    },
-    {
-      id: 5,
-      title: "Guest Speaker: Dr. James Wilson",
-      date: "June 20, 2025",
-      time: "6:00 PM - 8:30 PM",
-      location: "Main Sanctuary",
-      description: "A special service featuring renowned speaker Dr. James Wilson sharing on 'Walking in Divine Purpose'.",
-      icon: <Mic className="h-8 w-8 text-white" />
-    },
-    {
-      id: 6,
-      title: "Marriage Enrichment Retreat",
-      date: "July 10-12, 2025",
-      time: "Friday 4:00 PM - Sunday 2:00 PM",
-      location: "Mountain Retreat Center",
-      description: "A weekend getaway for married couples to strengthen their relationship and draw closer to God together.",
-      icon: <Heart className="h-8 w-8 text-white" />
     }
+  
   ];
 
   return (
@@ -173,17 +147,17 @@ const Events = () => {
                 Volunteer Opportunity
               </h3>
               <p className="text-gray-700 mb-4">
-                We need volunteers for our upcoming Community Outreach event on May 22nd.
+                We need volunteers for our upcoming Community Outreach events..
                 Please sign up at the welcome desk or contact the church office if you'd like to help.
               </p>
             </div>
             
             <div className="bg-church-accent p-8 rounded-lg">
               <h3 className="font-playfair text-xl font-bold mb-3 text-church-dark">
-                Church Picnic
+                Youth Picnic
               </h3>
               <p className="text-gray-700 mb-4">
-                Save the date for our annual church picnic on June 15th at City Park.
+                Our youth picnic holds every third Saturday of the month at City Park.
                 Bring your favorite dish to share and join us for food, games, and fellowship!
               </p>
             </div>
