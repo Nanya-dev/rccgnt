@@ -134,11 +134,10 @@ const Events = () => {
           <div className="max-w-4xl mx-auto">
             <div className="bg-church-accent p-8 rounded-lg mb-8">
               <h3 className="font-playfair text-xl font-bold mb-3 text-church-dark">
-                New Bible Study Series
+                Bible Study Series
               </h3>
               <p className="text-gray-700 mb-4">
-                Starting May 1st, we'll begin a new Bible study series on the Book of Romans.
-                Join us every Wednesday at 6:30 PM in the Fellowship Hall.
+                Join us every Tuesday at 5:30 PM in the Fellowship Hall.
               </p>
             </div>
             
