@@ -117,23 +117,36 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-playfair font-bold mb-6 text-church-dark text-center">
-              Our History
+              What to Expect
             </h2>
             <div className="w-20 h-1 bg-church-secondary mx-auto mb-8"></div>
             <div className="bg-white p-8 rounded-lg shadow-lg">
-              <p className="text-gray-700 mb-6 leading-relaxed">
-                RCCG A New Thing Parish was established in 2010 with a clear vision from God to create 
-                a place where people could experience His transformative power. What began as a small 
-                gathering of believers has grown into a vibrant community of faith.
+              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                Invitation to an Extraordinary Worship Experience at the Redeemed Christian Church of God, A New Thing Parish, Port Harcourt Rivers.
               </p>
-              <p className="text-gray-700 mb-6 leading-relaxed">
-                Over the years, we have witnessed countless miracles, lives changed, and souls saved 
-                through the faithful preaching of God's Word and the ministry of the Holy Spirit.
-              </p>
-              <p className="text-gray-700 leading-relaxed">
-                Today, we continue to build on the foundation laid by our founding members, 
-                always looking forward to what God will do next in our midst. We believe He is 
-                constantly doing a new thing among us, as promised in Isaiah 43:19.
+              
+              <div className="mb-6">
+                <h3 className="text-xl font-bold text-church-primary mb-3">SUNDAY SERVICE:</h3>
+                <ul className="list-disc pl-5 text-gray-700 space-y-2">
+                  <li>Sunday School Starts @8:00am</li>
+                  <li>Main Service Starts @8:45am</li>
+                </ul>
+              </div>
+              
+              <div className="mb-6">
+                <h3 className="text-xl font-bold text-church-primary mb-3">TUESDAY:</h3>
+                <p className="text-gray-700">Digging Deep Starts @5:30pm</p>
+                <p className="text-gray-700 italic mt-2">• The Holy Spirit Reveals the Mysteries in the undiluted word of God.</p>
+              </div>
+              
+              <div className="mb-6">
+                <h3 className="text-xl font-bold text-church-primary mb-3">THURSDAY:</h3>
+                <p className="text-gray-700">Faith Clinic Starts @5:30pm</p>
+                <p className="text-gray-700 italic mt-2">• The Doctor of all doctors - The Lord Jesus - is still in the Business of doing wonders</p>
+              </div>
+              
+              <p className="text-lg font-medium text-church-secondary mt-8">
+                God Bless you as you come in Jesus name! Amen
               </p>
             </div>
           </div>
