@@ -12,7 +12,7 @@ const Events = () => {
       id: 1,
       title: "Sunday Worship Service",
       date: "Every Sunday",
-      time: "8:00 AM - 12:30 PM",
+      time: "8:45 AM - 11:30 AM",
       location: "Main Sanctuary",
       description: "Join us for our weekly Sunday worship service featuring praise, worship, and the Word of God.",
       icon: <Calendar className="h-8 w-8 text-white" />
@@ -30,7 +30,7 @@ const Events = () => {
       id: 3,
       title: "Jesus feeds the nation",
       date: "Every first Sunday of the month",
-      time: "10:00 AM - 2:00 PM",
+      time: "8:45 AM - 11:30 AM",
       location: "City Park",
       description: "Join us as we serve our community through distributing food, clothing, and sharing the love of Christ.",
       icon: <Heart className="h-8 w-8 text-white" />
