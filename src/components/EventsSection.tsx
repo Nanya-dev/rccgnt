@@ -9,14 +9,14 @@ const upcomingEvents = [
     id: 1,
     title: "Sunday Worship Service",
     date: "Every Sunday",
-    time: "8:45 AM - 11:30 PM",
+    time: "8:45 AM - 11:30 AM",
     location: "Main Sanctuary"
   },
   {
     id: 2,
     title: "Youth Sunday",
     date: "Every third Sunday of the month",
-    time: "8:45 AM - 11:30 PM",
+    time: "8:45 AM - 11:30 AM",
     location: "Main Sanctuary"
   },
   {
