@@ -24,7 +24,7 @@ const ServiceTimesSection = () => {
             </div>
             <h3 className="font-playfair text-2xl font-bold mb-4 text-church-dark">Sunday Service</h3>
             <p className="text-gray-700 mb-4">Join us every Sunday for praise, worship, and the Word of God.</p>
-            <p className="font-bold text-church-primary mb-2">8:45 AM - 11:30 PM</p>
+            <p className="font-bold text-church-primary mb-2">8:45 AM - 11:30 AM</p>
             <p className="text-gray-600 mb-4">In-person & Online</p>
             <div className="flex items-center justify-center space-x-3 mt-4">
               <Button 
