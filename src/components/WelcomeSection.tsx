@@ -1,30 +1,58 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css"; 
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious
+} from "@/components/ui/carousel";
+import { useEffect, useState } from "react";
 
 const WelcomeSection = () => {
+  const [api, setApi] = useState<any>();
+  const [current, setCurrent] = useState(0);
+  
+  // Images for the slideshow
   const images = [
-    "/picture 1.jpeg", 
+    "/picture 1.jpeg",
     "/picture 2.jpeg",
-    "/picture 3.jpeg",   
-  ]
-
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-  };
-
+    "/picture 3.jpeg"
+  ];
+  
+  // Auto rotation for the slideshow
+  useEffect(() => {
+    if (!api) return;
+    
+    // Change slide every 5 seconds
+    const interval = setInterval(() => {
+      api.scrollNext();
+    }, 5000);
+    
+    // Cleanup interval on unmount
+    return () => clearInterval(interval);
+  }, [api]);
+  
+  // Update current slide index when slide changes
+  useEffect(() => {
+    if (!api) return;
+    
+    const onSelect = () => {
+      setCurrent(api.selectedScrollSnap());
+    };
+    
+    api.on("select", onSelect);
+    
+    // Cleanup event listener on unmount
+    return () => {
+      api.off("select", onSelect);
+    };
+  }, [api]);
+  
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-16">
-      <div className="flex flex-col md:flex-row items-center">
+        <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
             <h2 className="text-3xl md:text-4xl font-playfair font-bold mb-6 text-church-dark">
               Welcome to <span className="text-church-primary">A New Thing Parish</span>
@@ -47,21 +75,36 @@ const WelcomeSection = () => {
               <Link to="/about">About Our Church</Link>
             </Button>
           </div>
-          <div className="md:w-1/2 h-48">
-          <div className="relative max-w-md mx-auto">
-          <div className="absolute inset-0 border-2 border-church-primary"></div>
-
-              <Slider {...settings}>
-                {images.map((image, index) => (
-                  <div key={index}>
-                    <img 
-                      src={image} 
-                      alt={`Slide ${index + 1}`} 
-                      className="relative z-10 w-full aspect-[4/3]  h-full object-cover"
-                    />
-                  </div>
-                ))}
-              </Slider>
+          <div className="md:w-1/2">
+            <div className="relative max-w-md mx-auto">
+              <div className="absolute inset-0 border-2 border-church-primary"></div>
+              <Carousel className="w-full" setApi={setApi}>
+                <CarouselContent>
+                  {images.map((image, index) => (
+                    <CarouselItem key={index}>
+                      <img 
+                        src={image} 
+                        alt={`Church image ${index + 1}`} 
+                        className="relative z-10 w-full h-full object-cover aspect-[4/3]"
+                      />
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+                <div className="absolute bottom-4 left-0 right-0 z-20 flex justify-center gap-2">
+                  {images.map((_, index) => (
+                    <button
+                      key={index}
+                      onClick={() => api?.scrollTo(index)}
+                      className={`w-2.5 h-2.5 rounded-full transition-colors ${
+                        current === index ? "bg-church-primary" : "bg-white/50"
+                      }`}
+                      aria-label={`Go to slide ${index + 1}`}
+                    ></button>
+                  ))}
+                </div>
+                <CarouselPrevious variant="outline" className="left-2 bg-white/80 hover:bg-white" />
+                <CarouselNext variant="outline" className="right-2 bg-white/80 hover:bg-white" />
+              </Carousel>
             </div>
           </div>
         </div>
@@ -70,4 +113,4 @@ const WelcomeSection = () => {
   );
 };
 
-export default WelcomeSection
+export default WelcomeSection;
