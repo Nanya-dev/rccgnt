@@ -43,7 +43,7 @@ const Services = () => {
                 <h3 className="font-playfair text-2xl font-bold mb-2 text-church-dark">
                   Sunday Worship Service
                 </h3>
-                <p className="text-church-primary font-medium mb-4">8:00 AM - 11:30 PM</p>
+                <p className="text-church-primary font-medium mb-4">8:45 AM - 11:30 PM</p>
                 <p className="text-gray-700 mb-4">
                   Our main weekly gathering for worship, praise, prayer, and teaching from God's Word.
                   Join us for a powerful time in God's presence.
@@ -100,12 +100,12 @@ const Services = () => {
                 <h3 className="font-playfair text-2xl font-bold mb-2 text-church-dark">
                   Youth Sunday
                 </h3>
-                <p className="text-church-primary font-medium mb-4"> Every third Sunday of the month 8:00 PM - 12:30 PM</p>
+                <p className="text-church-primary font-medium mb-4"> Every third Sunday of the month 8:45 PM - 11:30 PM</p>
                 <p className="text-gray-700 mb-4">
                   A dynamic service designed specifically for our youth to worship,
                   learn, and grow together in a relevant and engaging environment.
                 </p>
-                <p className="text-gray-600">Location: Youth Center</p>
+                <p className="text-gray-600">Location: Main Sanctuary</p>
               </div>
             </div>
           </div>
