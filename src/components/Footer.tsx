@@ -56,7 +56,7 @@ const Footer = () => {
                 <Clock className="mr-2 h-5 w-5 text-church-secondary" />
                 <div>
                   <p className="font-medium">Sunday Service</p>
-                  <p className="text-gray-300">8:45 AM - 11:30 PM</p>
+                  <p className="text-gray-300">8:45 AM - 11:30 AM</p>
                 </div>
               </li>
               <li className="flex items-start">
