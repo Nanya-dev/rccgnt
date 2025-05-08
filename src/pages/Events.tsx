@@ -22,7 +22,6 @@ const Events = () => {
       title: "Youth Picnic",
       date: "Third Saturday of the month",
       time: "3:00 PM",
-      location: "Fellowship Hall",
       description: "A monthly get-to-gether designed to empower and equip our youth to live boldly for Christ.",
       icon: <Users className="h-8 w-8 text-white" />
     },
@@ -31,7 +30,7 @@ const Events = () => {
       title: "Jesus feeds the nation",
       date: "Every first Sunday of the month",
       time: "8:45 AM - 11:30 AM",
-      location: "City Park",
+      location: "Main Sanctuary",
       description: "Join us as we serve our community through distributing food, clothing, and sharing the love of Christ.",
       icon: <Heart className="h-8 w-8 text-white" />
     }
@@ -137,7 +136,7 @@ const Events = () => {
                 Bible Study Series
               </h3>
               <p className="text-gray-700 mb-4">
-                Join us every Tuesday at 5:30 PM in the Fellowship Hall.
+                Join us every Tuesday at 5:30 PM.
               </p>
             </div>
             
@@ -156,7 +155,7 @@ const Events = () => {
                 Youth Picnic
               </h3>
               <p className="text-gray-700 mb-4">
-                Our youth picnic holds every third Saturday of the month at City Park.
+                Our youth picnic holds every third Saturday of the month.
                 Bring your favorite dish to share and join us for food, games, and fellowship!
               </p>
             </div>
