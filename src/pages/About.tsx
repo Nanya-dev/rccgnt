@@ -12,7 +12,7 @@ const About = () => {
       name: "Pastor Aniekan Udo-Etuk",
       role: "Senior Pastor",
       image: "/h1.jpeg",
-      bio: "Pastor Aniekan has been leading our congregation for over 3 years with wisdom and compassion."
+      bio: "Pastor Aniekan has been leading our congregation for over a year with wisdom and compassion and God's overwhelming glory."
     },
     {
       id: 2,
@@ -56,7 +56,7 @@ const About = () => {
       </div>
       
       {/* Mission & Vision */}
-      <section className="py-20 bg-white">
+     <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="mb-16">
@@ -71,10 +71,18 @@ const About = () => {
                   ))}
                 </ol>
               </div>
-              
             </div>
             
-        
+            <div className="mb-16">
+              <h2 className="text-3xl font-playfair font-bold mb-6 text-church-dark text-center">
+                Our Vision
+              </h2>
+              <div className="w-20 h-1 bg-church-secondary mx-auto mb-8"></div>
+              <p className="text-xl text-center text-gray-700 leading-relaxed">
+                To be a thriving church community where God is doing a new thing in the lives of individuals, 
+                families, and our community, transforming them through the power of the Holy Spirit.
+              </p>
+            </div>
             
             <div>
               <h2 className="text-3xl font-playfair font-bold mb-6 text-church-dark text-center">
@@ -83,27 +91,27 @@ const About = () => {
               <div className="w-20 h-1 bg-church-secondary mx-auto mb-8"></div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="bg-church-accent p-8 rounded-lg">
-                  <h3 className="font-playfair text-xl font-bold mb-4 text-church-dark">Faith</h3>
+                  <h3 className="font-playfair text-xl font-bold mb-4 text-church-dark">Holiness</h3>
                   <p className="text-gray-700">
-                    We believe in the power of faith in God and His Word to transform lives and circumstances.
+                    We are committed to a lifestyle of holiness as commanded by God in His Word, reflecting His character in all we do.
                   </p>
                 </div>
                 <div className="bg-church-accent p-8 rounded-lg">
-                  <h3 className="font-playfair text-xl font-bold mb-4 text-church-dark">Love</h3>
+                  <h3 className="font-playfair text-xl font-bold mb-4 text-church-dark">Accountability</h3>
                   <p className="text-gray-700">
-                    We are committed to showing Christ's love to everyone, regardless of background or circumstance.
+                    We hold ourselves accountable to God and to one another, ensuring integrity and transparency in all our dealings.
                   </p>
                 </div>
                 <div className="bg-church-accent p-8 rounded-lg">
-                  <h3 className="font-playfair text-xl font-bold mb-4 text-church-dark">Excellence</h3>
+                  <h3 className="font-playfair text-xl font-bold mb-4 text-church-dark">Resourcefulness</h3>
                   <p className="text-gray-700">
-                    We strive for excellence in all we do as a reflection of our devotion to God.
+                    We maximize all resources God has given us, using creativity and wisdom to advance His kingdom effectively.
                   </p>
                 </div>
                 <div className="bg-church-accent p-8 rounded-lg">
-                  <h3 className="font-playfair text-xl font-bold mb-4 text-church-dark">Service</h3>
+                  <h3 className="font-playfair text-xl font-bold mb-4 text-church-dark">Sacrifice</h3>
                   <p className="text-gray-700">
-                    We are dedicated to serving our church family and the broader community with humility and compassion.
+                    We embrace a lifestyle of sacrifice, following Christ's example of giving ourselves fully for God's glory and others' good.
                   </p>
                 </div>
               </div>
@@ -112,7 +120,7 @@ const About = () => {
         </div>
       </section>
       
-      {/* Church History */}
+      {/* What to Expect - Replacing Church History */}
       <section className="py-20 bg-church-accent">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
@@ -157,11 +165,11 @@ const About = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-playfair font-bold mb-6 text-church-dark text-center">
-            Our Service Units
+            Our Leadership
           </h2>
           <div className="w-20 h-1 bg-church-secondary mx-auto mb-8"></div>
           <p className="text-lg text-center text-gray-700 max-w-3xl mx-auto mb-12">
-            Meet the dedicated Units who serve our church community with passion and purpose.
+            Meet the dedicated leaders who serve our church community with passion and purpose.
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
