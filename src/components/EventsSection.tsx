@@ -23,8 +23,7 @@ const upcomingEvents = [
     id: 3,
     title: "Youth Picnic",
     date: "Every third Saturday of the month",
-    time: "2:00 PM",
-    location: "City Park"
+    time: "2:00 PM"
   }
 ];
 
