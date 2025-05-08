@@ -68,6 +68,10 @@ const WelcomeSection = () => {
               you'll find a warm and welcoming community here. We invite you to join us 
               for worship and discover how God is doing a new thing in your life.
             </p>
+            <p className="text-lg text-gray-700 mb-8 leading-relaxed">
+              You are invited to an Extraordinary Worship Experience at the Redeemed Christian Church of God, 
+              A New Thing Parish, Port Harcourt Rivers.
+            </p>
             <Button 
               asChild
               className="bg-church-primary hover:bg-church-secondary text-white font-medium"
