@@ -15,7 +15,7 @@ const Events = () => {
       description: "Join us for an extraordinary worship experience with Host: Pst. Anieken Elijah. Featuring Dynamic voices, Oke sax, Mrs. Nkiru, Love and light crew and more.",
       icon: <Music className="h-8 w-8 text-white" />,
       featured: true
-    }
+    },
     {
       id: 2,
       title: "Sunday Worship Service",
@@ -71,7 +71,7 @@ const Events = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="p-8 flex items-center">
                   <img 
-                    src="/lovable-uploads/165d87c0-97b9-4b2a-b65d-4aba504e7d1f.png" 
+                    src="/img.jpeg" 
                     alt="Hour of Worship: Avalanche of Glory 2.0" 
                     className="w-full h-auto rounded-lg shadow-lg"
                   />
@@ -112,6 +112,29 @@ const Events = () => {
           <div className="w-20 h-1 bg-church-secondary mx-auto mb-12"></div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+             <div className="bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200">
+              <div className="bg-church-primary p-6 flex items-center justify-center">
+                <Music className="h-8 w-8 text-white" />
+              </div>
+              <div className="p-6">
+                <h3 className="font-playfair text-xl font-bold mb-3 text-church-dark">
+                  Hour of Worship: Avalanche of Glory 2.0
+                </h3>
+                <p className="text-church-primary font-medium mb-4">May 25, 2025</p>
+                <div className="mb-4 flex items-start">
+                  <Clock className="h-5 w-5 text-gray-500 mr-2 mt-0.5" />
+                  <p className="text-gray-700">4:00 PM</p>
+                </div>
+                <div className="mb-4 flex items-start">
+                  <MapPin className="h-5 w-5 text-gray-500 mr-2 mt-0.5" />
+                  <p className="text-gray-700">Church Auditorium, No. 6 Owhor Close, Rumuowha, Eneka, Port Harcourt</p>
+                </div>
+                <p className="text-gray-700 mb-6">Join us for an extraordinary worship experience with Host: Pst. Anieken Elijah. Featuring Dynamic voices, Oke sax, Mrs. Nkiru, Love and light crew and more.</p>
+                <Button className="w-full bg-church-primary hover:bg-church-secondary text-white">
+                  Learn More
+                </Button>
+              </div>
+            </div>
            {upcomingEvents.filter(event => !event.featured).map((event) => (
               <div key={event.id} className="bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200">
                 <div className="bg-church-primary p-6 flex items-center justify-center">
@@ -180,6 +203,7 @@ const Events = () => {
           </h2>
           <div className="w-20 h-1 bg-church-secondary mx-auto mb-12"></div>
 
+            <div className="max-w-4xl mx-auto">
             <div className="bg-church-accent p-8 rounded-lg mb-8">
               <h3 className="font-playfair text-xl font-bold mb-3 text-church-dark">
                 Hour of Worship: Avalanche of Glory 2.0
@@ -189,8 +213,7 @@ const Events = () => {
                The theme is "Avalanche of Glory 2.0" and will be hosted by Pastor Anieken Elijah.
               </p>
             </div>
-          
-          <div className="max-w-4xl mx-auto">
+            
             <div className="bg-church-accent p-8 rounded-lg mb-8">
               <h3 className="font-playfair text-xl font-bold mb-3 text-church-dark">
                 Bible Study Series
