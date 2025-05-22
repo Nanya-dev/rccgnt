@@ -7,30 +7,38 @@ import { Card, CardContent } from "@/components/ui/card";
 const upcomingEvents = [
   {
     id: 1,
-    title: "Sunday Worship Service",
-    date: "Every Sunday",
-    time: "8:45 AM - 11:30 AM",
-    location: "Main Sanctuary"
+    title: "Hour of Worship: Avalanche of Glory 2.0",
+    date: "May 25, 2025",
+    time: "4:00 PM",
+    location: "Church Auditorium, No. 6 Owhor Close, Rumuowha, Eneka, Port Harcourt"
   },
   {
     id: 2,
-    title: "Youth Sunday",
-    date: "Every third Sunday of the month",
-    time: "8:45 AM - 11:30 AM",
+    title: "Sunday Worship Service",
+    date: "Every Sunday",
+    time: "10:00 AM - 12:30 PM",
     location: "Main Sanctuary"
   },
-  {
+   {
     id: 3,
+    title: "Youth Sunday",
+    date: "Every third Sunday of the month",
+    time: "8:45 AM - 11:30 PM",
+    location: "Fellowship Hall"
+  },
+  {
+    id: 4                                                                                                                       ,
     title: "Youth Picnic",
     date: "Every third Saturday of the month",
-    time: "2:00 PM"
+    time: "2:00 PM",
+    location: "City Park"
   }
 ];
 
 const EventsSection = () => {
   return (
     <section className="py-20 bg-white">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-16">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-playfair font-bold mb-6 text-church-dark">
             Upcoming Events
