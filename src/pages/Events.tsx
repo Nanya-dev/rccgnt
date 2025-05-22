@@ -71,7 +71,7 @@ const Events = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="p-8 flex items-center">
                   <img 
-                    src="rccgnt/img.jpeg" 
+                    src="img.jpeg" 
                     alt="Hour of Worship: Avalanche of Glory 2.0" 
                     className="w-full h-auto rounded-lg shadow-lg"
                   />
