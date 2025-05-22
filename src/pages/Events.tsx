@@ -1,12 +1,10 @@
-
 import React from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { Calendar, Clock, MapPin, Users, Mic, Heart, Music} from "lucide-react";
+import { Calendar, Clock, MapPin, Users, Mic, Heart, Music } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Events = () => {
-  // Sample upcoming events data
   const upcomingEvents = [
      {
       id: 1,
@@ -181,6 +179,16 @@ const Events = () => {
             Church Announcements
           </h2>
           <div className="w-20 h-1 bg-church-secondary mx-auto mb-12"></div>
+
+            <div className="bg-church-accent p-8 rounded-lg mb-8">
+              <h3 className="font-playfair text-xl font-bold mb-3 text-church-dark">
+                Hour of Worship: Avalanche of Glory 2.0
+              </h3>
+              <p className="text-gray-700 mb-4">
+               Join us on Sunday, May 25th at 4:00 PM for our special Hour of Worship event.
+               The theme is "Avalanche of Glory 2.0" and will be hosted by Pastor Anieken Elijah.
+              </p>
+            </div>
           
           <div className="max-w-4xl mx-auto">
             <div className="bg-church-accent p-8 rounded-lg mb-8">
@@ -189,16 +197,6 @@ const Events = () => {
               </h3>
               <p className="text-gray-700 mb-4">
                 Join us every Tuesday at 5:30 PM.
-              </p>
-            </div>
-            
-            <div className="bg-church-accent p-8 rounded-lg mb-8">
-              <h3 className="font-playfair text-xl font-bold mb-3 text-church-dark">
-                Hour of Worship: Avalanche of Glory 2.0
-              </h3>
-              <p className="text-gray-700 mb-4">
-               Join us on Sunday, May 25th at 4:00 PM for our special Hour of Worship event.
-               The theme is "Avalanche of Glory 2.0" and will be hosted by Pastor Anieken Elijah.
               </p>
             </div>
             
