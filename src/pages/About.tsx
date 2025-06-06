@@ -1,4 +1,4 @@
-
+ 
 import React from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -26,7 +26,7 @@ const About = () => {
       name: "Youth Community",
       role: "",
       image: "/h3.jpeg",
-      bio: "Jeremiah 1:4-9 The word of the LORD came to me, saying, ‘Before I formed you in the womb I knew you, before you were born I set you apart; I appointed you as a prophet to the nations.’ ‘Ah, Sovereign LORD,’ I said, ‘I do not know how to speak; I am only a child.’ But the LORD said to me, ‘Do not say, 'I am only a child.' You must go to everyone I send you to and say whatever I command you. Do not be afraid of them, for I am with you and will rescue you,’ declares the LORD. Then the LORD reached out his hand and touched my mouth and said to me, ‘Now, I have put my words in your mouth."
+      bio: "Jeremiah 1:4-9 ‘.... But the LORD said to me, ‘Do not say, 'I am only a child.' You must go to everyone I send you to and say whatever I command you. Do not be afraid of them, for I am with you and will rescue you,’ declares the LORD.'
     }
   ];
 
