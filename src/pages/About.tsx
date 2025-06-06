@@ -175,7 +175,7 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {leaders.map((leader) => (
               <Card key={leader.id} className="overflow-hidden">
-                <div className="h-64 overflow-hidden">
+                <div className="relative w-673 h-256 rounded-lg overflow-hidden shadow-sm">
                   <img 
                     src={leader.image} 
                     alt={leader.name} 
