@@ -26,7 +26,7 @@ const About = () => {
       name: "Youth Community",
       role: "",
       image: "/h3.jpeg",
-      bio: "Jeremiah 1:4-9 ‘.... But the LORD said to me, ‘Do not say, 'I am only a child.' You must go to everyone I send you to and say whatever I command you. Do not be afraid of them, for I am with you and will rescue you,’ declares the LORD.'
+      bio: "Jeremiah 1:4-9 ‘.... But the LORD said to me, ‘Do not say, 'I am only a child.' You must go to everyone I send you to and say whatever I command you. Do not be afraid of them, for I am with you and will rescue you,’ declares the LORD."
     }
   ];
 
