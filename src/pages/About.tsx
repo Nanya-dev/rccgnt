@@ -9,7 +9,7 @@ const About = () => {
   const leaders = [
     {
       id: 1,
-      name: "Pastor Aniekan Udo-Etuk",
+      name: "Pastor Aniekan Elijah N. Udo-Etuk",
       role: "Senior Pastor",
       image: "/h1.jpeg",
       bio: "Pastor Aniekan has been leading our congregation for over a year with wisdom and compassion and God's overwhelming glory."
