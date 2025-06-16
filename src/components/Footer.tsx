@@ -13,7 +13,7 @@ const Footer = () => {
               Where God makes all things new. Join us as we worship, grow, and serve together in Christ.
             </p>
             <div className="flex space-x-4">
-              <a href="https://www.facebook.com/share/r/18NgTLjSdP/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-church-secondary transition-colors">
+              <a href="https://www.facebook.com/profile.php?id=61576904316097" target="_blank" rel="noopener noreferrer" className="text-white hover:text-church-secondary transition-colors">
                 <Facebook size={20} />
               </a>
               <a href="https://www.instagram.com/newthingmedia129?igsh=ZjJpODJqNGlpNDgz" target="_blank" rel="noopener noreferrer" className="text-white hover:text-church-secondary transition-colors">
