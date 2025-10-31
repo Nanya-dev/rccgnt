@@ -127,7 +127,7 @@ const Events = () => {
           <div className="w-20 h-1 bg-church-secondary mx-auto mb-12"></div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {upcomingEvents.filter(event => !event.featured).map((event) => (
+            {upcomingEvents.map((event) => (
               <div key={event.id} className="bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200">
                 <div className="bg-church-primary p-6 flex items-center justify-center">
                   {event.icon}
