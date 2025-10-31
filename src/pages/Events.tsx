@@ -8,12 +8,13 @@ const Events = () => {
   const upcomingEvents = [
      {
       id: 1,
-      title: "Hour of Worship: Avalanche of Glory 2.0",
-      date: "May 25, 2025",
-      time: "4:00 PM",
-      location: "Church Auditorium, No. 6 Owhor Close, Rumuowha, Eneka, Port Harcourt",
-      description: "Join us for an extraordinary worship experience with Host: Pst. Anieken Elijah. Featuring Dynamic voices, Oke sax, Mrs. Nkiru, Love and light crew and more.",
-      icon: <Music className="h-8 w-8 text-white" />,
+      title: "Church Dedication Service",
+      date: "November 1, 2025",
+      time: "2:00 PM",
+      location: "No. 6 Owhor Close, Rumuowha, Eneka, Port Harcourt",
+      description: "Join us for this special Church Dedication Service. Theme: 'Behold, I will do a new thing—Isaiah 43:19a'. Special guests including Pastor David Adewuyi, Pastor Chukwugoziom Onienwah, Pastor Bryte Tobele, and Host Pastor A/P Aniekan Udo-Ekuk Elijah.",
+      icon: <Calendar className="h-8 w-8 text-white" />,
+      flyer: "/lovable-uploads/church-dedication-flyer.jpg",
       featured: true
     },
     {
