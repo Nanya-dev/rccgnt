@@ -1,3 +1,4 @@
+
 import React from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -5,8 +6,9 @@ import { Calendar, Clock, MapPin, Users, Mic, Heart, Music } from "lucide-react"
 import { Button } from "@/components/ui/button";
 
 const Events = () => {
+  // Sample upcoming events data
   const upcomingEvents = [
-     {
+    { 
       id: 1,
       title: "Church Dedication Service",
       date: "November 1, 2025",
@@ -14,39 +16,51 @@ const Events = () => {
       location: "No. 6 Owhor Close, Rumuowha, Eneka, Port Harcourt",
       description: "Join us for this special Church Dedication Service. Theme: 'Behold, I will do a new thing—Isaiah 43:19a'. Special guests including Pastor David Adewuyi, Pastor Chukwugoziom Onienwah, Pastor Bryte Tobele, and Host Pastor A/P Aniekan Udo-Ekuk Elijah.",
       icon: <Calendar className="h-8 w-8 text-white" />,
-      flyer: "/eventupcoming.jpeg",
+      flyer: "/upcomingevent.jpeg",
       featured: true
+
     },
     {
-      id: 2,
+     id: 2,
       title: "Sunday Worship Service",
       date: "Every Sunday",
-      time: "8:45 AM - 11:30 AM",
+      time: "10:00 AM - 12:30 PM",
       location: "Main Sanctuary",
       description: "Join us for our weekly Sunday worship service featuring praise, worship, and the Word of God.",
       icon: <Calendar className="h-8 w-8 text-white" />
     },
     {
-      id: 2,
-      title: "Youth Picnic",
-      date: "Third Saturday of the month",
-      time: "3:00 PM",
-      description: "A monthly get-to-gether designed to empower and equip our youth to live boldly for Christ.",
+      id: 3,
+      title: "Youth Conference",
+      date: "May 15-17, 2025",
+      time: "9:00 AM - 5:00 PM",
+      location: "Fellowship Hall",
+      description: "A three-day conference designed to empower and equip our youth to live boldly for Christ.",
       icon: <Users className="h-8 w-8 text-white" />
     },
     {
-      id: 3,
-      title: "Jesus feeds the nation",
-      date: "Every first Sunday of the month",
-      time: "8:45 AM - 11:30 AM",
-      location: "Main Sanctuary",
+      id: 4,
+      title: "Community Outreach",
+      date: "May 22, 2025",
+      time: "10:00 AM - 2:00 PM",
+      location: "City Park",
       description: "Join us as we serve our community through distributing food, clothing, and sharing the love of Christ.",
       icon: <Heart className="h-8 w-8 text-white" />
-    }
-  
+    },
+    {
+      id: 5,
+      title: "Prayer & Fasting Week",
+      date: "June 5-12, 2025",
+      time: "6:30 PM - 8:30 PM (evening gatherings)",
+      location: "Prayer Room",
+      description: "A dedicated week of seeking God through prayer and fasting for spiritual breakthrough.",
+      icon: <Clock className="h-8 w-8 text-white" />
+    },
+    
   ];
-   // Find featured event (Hour of Worship)
-  const featuredEvent = upcomingEvents.find(event => event.featured)
+
+  // Find featured event (Hour of Worship)
+  const featuredEvent = upcomingEvents.find(event => event.featured);
 
   return (
     <div className="min-h-screen">
@@ -69,11 +83,11 @@ const Events = () => {
         <section className="py-16 bg-gradient-to-br from-purple-800 to-red-600">
           <div className="container mx-auto px-4">
             <div className="bg-white/10 backdrop-blur-sm rounded-lg shadow-2xl overflow-hidden max-w-5xl mx-auto">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="p-8 flex items-center">
                   <img 
-                    src="/eventupcoming.jpeg" 
-                    alt="Hour of Worship: Avalanche of Glory 2.0" 
+                    src={featuredEvent.flyer} 
+                    alt={featuredEvent.title} 
                     className="w-full h-auto rounded-lg shadow-lg"
                   />
                 </div>
@@ -113,31 +127,7 @@ const Events = () => {
           <div className="w-20 h-1 bg-church-secondary mx-auto mb-12"></div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-             <div className="bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200">
-              <div className="bg-church-primary p-6 flex items-center justify-center">
-                <Music className="h-8 w-8 text-white" />
-              </div>
-              <div className="p-6">
-                <h3 className="font-playfair text-xl font-bold mb-3 text-church-dark">
-                 Church Dedication Service
-                </h3>
-                <p className="text-church-primary font-medium mb-4">May 25, 2025</p>
-                <div className="mb-4 flex items-start">
-                  <Clock className="h-5 w-5 text-gray-500 mr-2 mt-0.5" />
-                  <p className="text-gray-700">4:00 PM</p>
-                </div>
-                <div className="mb-4 flex items-start">
-                  <MapPin className="h-5 w-5 text-gray-500 mr-2 mt-0.5" />
-                  <p className="text-gray-700">Church Auditorium, No. 6 Owhor Close, Rumuowha, Eneka, Port Harcourt</p>
-                </div>
-                <p className="text-gray-700 mb-6">Join us on November 1st, 2025 at 2:00 PM for our Church Dedication Service.
-                Theme: "Behold, I will do a new thing—Isaiah 43:19a". Special guests include Pastor David Adewuyi, Pastor Chukwugoziom Onienwah, Pastor Bryte Tobele, and Host Pastor A/P Aniekan Udo-Ekuk Elijah.
-                <Button className="w-full bg-church-primary hover:bg-church-secondary text-white">
-                  Learn More
-                </Button>
-              </div>
-            </div>
-           {upcomingEvents.filter(event => !event.featured).map((event) => (
+            {upcomingEvents.filter(event => !event.featured).map((event) => (
               <div key={event.id} className="bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200">
                 <div className="bg-church-primary p-6 flex items-center justify-center">
                   {event.icon}
@@ -189,7 +179,7 @@ const Events = () => {
                 interactive calendar of all church events and activities.
               </p>
               <p className="text-gray-700">
-                In the meantime, you can call the church office at +234 805 501 9445 for information 
+                In the meantime, you can call the church office at (123) 456-7890 for information 
                 about upcoming events.
               </p>
             </div>
@@ -204,33 +194,34 @@ const Events = () => {
             Church Announcements
           </h2>
           <div className="w-20 h-1 bg-church-secondary mx-auto mb-12"></div>
-
-            <div className="max-w-4xl mx-auto">
+          
+          <div className="max-w-4xl mx-auto">
             <div className="bg-church-accent p-8 rounded-lg mb-8">
               <h3 className="font-playfair text-xl font-bold mb-3 text-church-dark">
-                Hour of Worship: Avalanche of Glory 2.0
+                Church Dedication Service
               </h3>
               <p className="text-gray-700 mb-4">
-               Join us on Sunday, May 25th at 4:00 PM for our special Hour of Worship event.
-               The theme is "Avalanche of Glory 2.0" and will be hosted by Pastor Anieken Elijah.
+                Join us on November 1st, 2025 at 2:00 PM for our Church Dedication Service.
+                Theme: "Behold, I will do a new thing—Isaiah 43:19a". Special guests include Pastor David Adewuyi, Pastor Chukwugoziom Onienwah, Pastor Bryte Tobele, and Host Pastor A/P Aniekan Udo-Ekuk Elijah.
               </p>
             </div>
             
             <div className="bg-church-accent p-8 rounded-lg mb-8">
               <h3 className="font-playfair text-xl font-bold mb-3 text-church-dark">
-                Bible Study Series
+                Volunteer Opportunity
               </h3>
               <p className="text-gray-700 mb-4">
-                Join us every Tuesday at 5:30 PM.
+                We need volunteers for our upcoming Community Outreach event on May 22nd.
+                Please sign up at the welcome desk or contact the church office if you'd like to help.
               </p>
             </div>
             
             <div className="bg-church-accent p-8 rounded-lg">
               <h3 className="font-playfair text-xl font-bold mb-3 text-church-dark">
-                Youth Picnic
+                Church Picnic
               </h3>
               <p className="text-gray-700 mb-4">
-                Our youth picnic holds every third Saturday of the month.
+                Save the date for our annual church picnic on June 15th at City Park.
                 Bring your favorite dish to share and join us for food, games, and fellowship!
               </p>
             </div>
