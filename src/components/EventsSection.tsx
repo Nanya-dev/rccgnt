@@ -6,11 +6,11 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const upcomingEvents = [
   {
-    id: 1,
-    title: "Hour of Worship: Avalanche of Glory 2.0",
-    date: "May 25, 2025",
-    time: "4:00 PM",
-    location: "Church Auditorium, No. 6 Owhor Close, Rumuowha, Eneka, Port Harcourt"
+  id: 1,
+    title: "Church Dedication Service",
+    date: "November 1, 2025",
+    time: "2:00 PM",
+    location: "No. 6 Owhor Close, Rumuowha, Eneka, Port Harcourt"
   },
   {
     id: 2,
