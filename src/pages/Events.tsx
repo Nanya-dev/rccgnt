@@ -72,7 +72,7 @@ const Events = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="p-8 flex items-center">
                   <img 
-                    src="/img.jpeg" 
+                    src="/eventupcoming.jpeg" 
                     alt="Hour of Worship: Avalanche of Glory 2.0" 
                     className="w-full h-auto rounded-lg shadow-lg"
                   />
@@ -119,7 +119,7 @@ const Events = () => {
               </div>
               <div className="p-6">
                 <h3 className="font-playfair text-xl font-bold mb-3 text-church-dark">
-                  Hour of Worship: Avalanche of Glory 2.0
+                 Church Dedication Service
                 </h3>
                 <p className="text-church-primary font-medium mb-4">May 25, 2025</p>
                 <div className="mb-4 flex items-start">
@@ -130,7 +130,8 @@ const Events = () => {
                   <MapPin className="h-5 w-5 text-gray-500 mr-2 mt-0.5" />
                   <p className="text-gray-700">Church Auditorium, No. 6 Owhor Close, Rumuowha, Eneka, Port Harcourt</p>
                 </div>
-                <p className="text-gray-700 mb-6">Join us for an extraordinary worship experience with Host: Pst. Anieken Elijah. Featuring Dynamic voices, Oke sax, Mrs. Nkiru, Love and light crew and more.</p>
+                <p className="text-gray-700 mb-6">Join us on November 1st, 2025 at 2:00 PM for our Church Dedication Service.
+                Theme: "Behold, I will do a new thing—Isaiah 43:19a". Special guests include Pastor David Adewuyi, Pastor Chukwugoziom Onienwah, Pastor Bryte Tobele, and Host Pastor A/P Aniekan Udo-Ekuk Elijah.
                 <Button className="w-full bg-church-primary hover:bg-church-secondary text-white">
                   Learn More
                 </Button>
