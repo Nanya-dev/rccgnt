@@ -14,7 +14,7 @@ const Events = () => {
       location: "No. 6 Owhor Close, Rumuowha, Eneka, Port Harcourt",
       description: "Join us for this special Church Dedication Service. Theme: 'Behold, I will do a new thing—Isaiah 43:19a'. Special guests including Pastor David Adewuyi, Pastor Chukwugoziom Onienwah, Pastor Bryte Tobele, and Host Pastor A/P Aniekan Udo-Ekuk Elijah.",
       icon: <Calendar className="h-8 w-8 text-white" />,
-      flyer: "/lovable-uploads/church-dedication-flyer.jpg",
+      flyer: "/eventupcoming",
       featured: true
     },
     {
